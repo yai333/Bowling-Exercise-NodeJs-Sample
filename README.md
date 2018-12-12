@@ -21,3 +21,14 @@ eg.
 ```
 node index.js 4,6,5,0
 ```
+
+## Docker
+
+Setup amd run docker in interactive mode
+
+```
+docker build -t bowlling_score_cal .
+docker run -i -t bowlling_score_cal  /bin/bash
+```
+
+ 
