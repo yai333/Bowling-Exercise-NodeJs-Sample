@@ -5,7 +5,7 @@ const rolls = rollsString ? JSON.parse("[" + rollsString + "]") : 0;
 const bowlingScore = rolls => {
   let _frame = 1;
   let _totalScore = 0;
-  return rolls.reduce((_total, _value = 0, _index, _scoreArr = []) => {
+  return rolls.reduce((_total, _value, _index, _scoreArr) => {
     if (_frame >= 10) return _total + _value;
     else if (_value === 10) {
       _frame++;

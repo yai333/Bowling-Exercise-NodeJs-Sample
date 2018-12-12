@@ -19,5 +19,5 @@ Execute index.js with rolls score arguments.
 eg.
 
 ```
-nodejs index.js 4,6,5,0
+node index.js 4,6,5,0
 ```
