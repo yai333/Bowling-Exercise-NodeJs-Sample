@@ -15,7 +15,7 @@ One player only
 
 ## Docker 
 
-You can run the script without setup nodeJs env, just Setup amd run docker with interactive mode
+You can test the script without setup nodeJs env, just Setup and run docker with interactive mode
 
 ```
 docker build -t bowlling_score_cal .
