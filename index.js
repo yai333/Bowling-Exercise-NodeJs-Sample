@@ -17,7 +17,7 @@ const getBowlingScore = rolls => {
         (_scoreArr[_index + 2] || 0);
     } else if (_frame % 1 !== 0) {
       _frame = Math.floor(++_frame);
-      //check wheather is spare
+      //check whether score is spare
       _totalScore =
         _value + _scoreArr[_index - 1] === 10
           ? _total + _value + (_scoreArr[_index + 1] || 0)
