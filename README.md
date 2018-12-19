@@ -13,6 +13,16 @@ One player only
 - There are 10 frames in a match
 - Don't worry about validating the number of rolls in a frame
 
+## Docker 
+
+You can test the script without setup nodeJs env, just Setup and run docker with interactive mode
+
+```
+docker build -t bowlling_score_cal .
+docker run -i -t bowlling_score_cal  /bin/bash
+```
+
+
 ## How to use
 
 Execute index.js with rolls score arguments.
@@ -21,3 +31,5 @@ eg.
 ```
 node index.js 4,6,5,0
 ```
+
+ 
