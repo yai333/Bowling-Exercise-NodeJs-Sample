@@ -6,7 +6,7 @@ const bowlingScore = rolls => {
   let _frame = 1;
   let _totalScore = 0;
   return rolls.reduce((_total, _value, _index, _scoreArr) => {
-    if (_frame >= 10) return _total + _value;
+    if (_frame >= 10) _totalScore = _total + _value;
     else if (_value === 10) {
       _frame++;
       _totalScore =
